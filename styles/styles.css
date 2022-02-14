@@ -1,0 +1,36 @@
+* {
+    margin: auto;
+}
+
+#principal{
+    height: 100vh;
+    background-image: url("../imagens/fundo.jpg");
+    background-size: cover;
+}
+
+div{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 100vw;
+}
+
+img {
+    height: 200px;
+}
+
+button {
+    font: bold 16px Arial;
+    margin-top: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+
+#botoes{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+}
